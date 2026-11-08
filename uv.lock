@@ -9,7 +9,7 @@ resolution-markers = [
 
 [[package]]
 name = "adbutils"
-version = "2.9.3"
+version = "2.12.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecation" },
@@ -17,12 +17,12 @@ dependencies = [
     { name = "requests" },
     { name = "retry2" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/89/26/d522ca7dd18e51e48952046e5f26b0436532f1f433f9d1376f3b4700f99e/adbutils-2.9.3.tar.gz", hash = "sha256:9adb922796f1096cb5bfebc6754f419ec781136b3f38a5588ca58a07bec26147", size = 187867, upload-time = "2025-06-23T00:41:04.139Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/64/a9/ebe3356cb224d5bbbf9d3d31ef6d31935d356340b2d37a09b6796ffcf2f4/adbutils-2.12.0.tar.gz", hash = "sha256:3653a8f39735620bc45b15ee2e7a00e502c9f1a259452e1fb2bbba3ea59d0e68", size = 191920, upload-time = "2025-11-12T06:09:33.82Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/66/3b/616c81dc14b8cf03ffb3202365d2593a3e5aad5c91356b6e41090e3b56cb/adbutils-2.9.3-py3-none-macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:db11a3273f755f50bd7d80d14feb470ad5f02fe73d3d6b8442a1408374a5174b", size = 6706764, upload-time = "2025-06-23T00:40:57.5Z" },
-    { url = "https://files.pythonhosted.org/packages/6b/27/5da73f56315694de3bbbbb3ded61199b4ea4a714e19df5ad5285f9b2534f/adbutils-2.9.3-py3-none-manylinux1_x86_64.whl", hash = "sha256:fe91d59324dfcdebf01cd76e843467d8efb1ab78bd697bc81ec9b83918dc9c8d", size = 3577714, upload-time = "2025-06-23T00:40:59.568Z" },
-    { url = "https://files.pythonhosted.org/packages/d6/9c/fe66312844bd048190fc3cbb803c19eb57a2679f1ea0aea5e2f6dd2ef4a1/adbutils-2.9.3-py3-none-win32.whl", hash = "sha256:82cf82ad5b4ff74cbe44c54c9a92364c906c6fd93eba25b1f47941862140edfa", size = 3338333, upload-time = "2025-06-23T00:41:01.037Z" },
-    { url = "https://files.pythonhosted.org/packages/f3/56/ecc00bcb16dc7358573f9886571281ed4dfdb14d20c47783301b046d96f7/adbutils-2.9.3-py3-none-win_amd64.whl", hash = "sha256:73f6ca710bdfb9bc72d9b7e5c9c51325751c1e43d4bdc98b9cee910e2e97588c", size = 3338338, upload-time = "2025-06-23T00:41:02.699Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/7b/9b8e55a9357244148380bce6ce51402f92fe441f2fb7673cedc6d509dd5b/adbutils-2.12.0-py3-none-macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:adf131c746519f8a9576765d8f1315396d2573c9f178d6104e2a42dc9a714a3f", size = 6707555, upload-time = "2025-11-12T06:09:28.266Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/bd/47dfb989b4a086cf8ca67b4b56c2760dea5e61064e3869175579c9ccad23/adbutils-2.12.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:fe2699b15150c828a7f81c4753e2f22da9c506b72ac785658ddd90c1362701ee", size = 3578510, upload-time = "2025-11-12T06:09:29.857Z" },
+    { url = "https://files.pythonhosted.org/packages/35/2c/4a6c0e7405b61b62698157a50d364348dac1c572f13ec7506b9f9bbc95e9/adbutils-2.12.0-py3-none-win32.whl", hash = "sha256:189e0060737bb84111892ccaf7bcd098603297ecdd89a9224f390c2949ba8a5a", size = 3339129, upload-time = "2025-11-12T06:09:31.322Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/b5/da4d7929d2e4db4fe811efcde669e178539e1695ddc33a9c2741998df805/adbutils-2.12.0-py3-none-win_amd64.whl", hash = "sha256:e7629bb5783f4aa40942889da1455c879b21f9d1cc057596003b42f3371543be", size = 3339132, upload-time = "2025-11-12T06:09:32.498Z" },
 ]
 
 [[package]]
@@ -2077,7 +2077,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "adbutils", specifier = "==2.9.3" },
+    { name = "adbutils", specifier = "==2.12.0" },
     { name = "appium-python-client", specifier = ">=5.0.0" },
     { name = "colorama", specifier = ">=0.4.6" },
     { name = "facebook-wda", specifier = ">=1.5.4" },
